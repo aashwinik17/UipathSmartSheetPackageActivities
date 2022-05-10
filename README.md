@@ -1,7 +1,7 @@
 # UipathSmartSheetPackageActivities
 1. get_SheetObject :>> 
   This Uipath workflow helps in getting a Sheet Object of any Smartsheets. 
-  Input: SheetID (String), API Token (String), int_PageSize (Integer)
+  Input: SheetID (String), API Token (String), int_PageSize (Integer, Default - 100 records)
   Output: Sheet Object (Sheet)
   
 2. get_ColumnID_By_ColumnName :>> 
